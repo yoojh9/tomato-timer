@@ -31,7 +31,7 @@ const TIME_DURATION = 1500;
 const InitialState = {
     isPlaying: false,
     elapsedTime: 0,
-    TIME_DURATION: 1500
+    timeDuration: TIME_DURATION
 }
 // 액션을 보낼 때마다 리덕스가 자동으로 액션을 리듀서로 보냄.
 function reducer(state = InitialState, action){
@@ -80,7 +80,7 @@ function applyAddSeconds(state){
 const actionCreator = {
     startTimer,
     restartTimer,
-    applyAddSeconds
+    addSecond
 }
 
 // 7) Export Reducer

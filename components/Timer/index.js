@@ -14,4 +14,5 @@ function mapStateToProps(state){
     }
 }
 
+// connect() : 컴포넌트를 스토어와 연결해줌
 export default connect(mapStateToProps)(Timer);
